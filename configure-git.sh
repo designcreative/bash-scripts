@@ -11,3 +11,10 @@ sudo apt-get install git git-core -y
 
 # Configure editor
 git config --global core.editor vim
+
+# Generating a new SSH key
+# ssh-keygen -t rsa -b 4096 -C "user@email.com"
+
+# Adding your SSH key to the ssh-agent
+# eval "$(ssh-agent -s)"
+# ssh-add ~/.ssh/id_rsa
